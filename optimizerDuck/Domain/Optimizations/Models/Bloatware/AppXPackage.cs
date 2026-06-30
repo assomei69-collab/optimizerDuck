@@ -62,7 +62,7 @@ public partial class AppXPackage : ObservableObject
     public AppRisk Risk { get; init; }
 
     /// <summary>
-    ///     Gets the visual representation of the risk level for UI display.
+    ///     Gets the visual representation of the risk level for UI display on 31.
     /// </summary>
     public RiskVisual RiskVisual =>
         Risk switch
